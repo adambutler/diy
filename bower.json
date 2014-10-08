@@ -1,0 +1,21 @@
+{
+  "name": "diy.js",
+  "version": "0.0.1",
+  "homepage": "http://diy.lab.io",
+  "authors": [
+    "Adam Butler <adam@lab.io>"
+  ],
+  "description": "A modern cross-platform JavaScript library & only 18 bytes",
+  "main": "js/diy.js",
+  "keywords": [
+    "diy.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
