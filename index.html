@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>diy.js</title>
+    <meta name="description" content="A modern cross-platform JavaScript library & only 18 bytes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+    <script src="/js/diy.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <h1>diy.js</h1>
+    <p>A modern cross-platform JavaScript library &amp; only 18 bytes</p>
+
+    <a href="/js/diy.js" class="button button--large">Download Now</a>
+
+    <hr>
+
+    <h2>Examples</h2>
+
+    <h3>Click event</h3>
+
+<div><pre><code>$.getElementById("demo1").addEventListener('click', function(){
+  alert('click');
+});
+</code></pre></div>
+
+      <span class="button" id="demo1">Try it!</span>
+
+      <hr class="hr--short">
+
+      <h3>Document width and height</h3>
+
+<div><pre><code>console.log("Height: "+$.body.clientHeight);
+console.log("Width: "+$.body.clientWidth);
+</code></pre></div>
+
+      <small><i>See the console for output</i></small>
+
+      <hr class="hr--short">
+
+
+      <p>More examples and documentation can be found <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">here</a>.</p>
+
+      <hr>
+
+      <div class="faq">
+        <h2>FAQ</h2>
+
+        <h4>Hey bro, are you serious?</h4>
+        <p>Sure... I built diy.js because I wanted the flexabiliy to do anything I liked but without the expensive weight of other JavaScript libraries.</p>
+
+        <h4>How long did diy.js take to develop?</h4>
+        <p>I've been developing diy.js for three years, about nine months of this was ensuing that diy.js was fully browser tested.</p>
+
+        <h4>Where can I get the souce code for diy.js?</h4>
+        <p>It's right <a href="/js/diy.js">here</a> have fin.</p>
+
+        <h4>How can I contact you?</h4>
+        <p>I'm on <a href="http://twitter.com/labfoo">Twitter</a>, <a href="http://github.com/adambutler">Github</a> or email me at adam<span class="visually-hidden">+diy</span>@lab.io</p>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script>
+    $.getElementById("demo1").addEventListener('click', function(){
+      alert('click');
+    });
+  </script>
+</html>
