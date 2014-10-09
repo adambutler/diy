@@ -5,15 +5,17 @@ A modern cross-platform JavaScript library & only 18 bytes
 ### Examples
 
 #### Click event
-
+```javascript
   $.getElementById("demo1").addEventListener('click', function(){
     alert('click');
   });
+  ```
 
 #### Document width and height
-
+```javascript
   console.log("Height: "+$.body.clientHeight);
   console.log("Width: "+$.body.clientWidth);
+```
 
 More examples and documentation can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
