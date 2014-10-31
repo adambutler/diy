@@ -1,61 +1,38 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# [diy.js](http://diy.lab.io)
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+A modern cross-platform JavaScript library & only 18 bytes
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+### Examples
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+#### Click event
+```javascript
+  $.getElementById("demo1").addEventListener('click', function(){
+    alert('click');
+  });
+  ```
 
+#### Document width and height
+```javascript
+  console.log("Height: "+$.body.clientHeight);
+  console.log("Width: "+$.body.clientWidth);
+```
 
-## Quick start
+More examples and documentation can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
-Choose one of the following options:
+### FAQ
 
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
-   release you'd like to use.
+#### Hey bro, are you serious?
 
+Sure... I built diy.js because I wanted the flexibility to do anything I liked but without the expensive weight of other JavaScript libraries.
 
-## Features
+#### How long did diy.js take to develop?
 
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
-  normalizations and common bug fixes.
-* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* IE-specific classes for easier cross-browser control.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
-  IE6/7.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+I've been developing diy.js for three years, about nine months of this was ensuring that diy.js was fully browser tested.
 
+#### Where can I get the source code for diy.js?
 
-## Documentation
+It's right [here](http://diy.lab.io/js/diy.js) - have fun.
 
-Take a look at the [documentation table of contents](doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation you
-want to write about your project.
+#### How can I contact you?
 
-
-## Contributing
-
-Anyone and everyone is welcome to [contribute](CONTRIBUTING.md). Hundreds of
-developers have helped make the HTML5 Boilerplate what it is today.
+I'm on [Twitter](http://twitter.com/labfoo), [Github](http://github.com/adambutler) or email me at adam@lab.io
